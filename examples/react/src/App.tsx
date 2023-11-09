@@ -32,7 +32,7 @@ export default function App() {
       crossOrigin: 'anonymous',
     },
     dotsOptions: {
-      color: '#222222',
+      color: '#000',
       // gradient: {
       //   type: 'linear', // 'radial'
       //   rotation: 0,
@@ -41,7 +41,7 @@ export default function App() {
       type: 'rounded' as DotType
     },
     backgroundOptions: {
-      color: '#5FD4F3',
+      color: '#FFF',
       // gradient: {
       //   type: 'linear', // 'radial'
       //   rotation: 0,
@@ -49,7 +49,7 @@ export default function App() {
       // },
     },
     cornersSquareOptions: {
-      color: '#222222',
+      color: '#000',
       type: 'extra-rounded' as CornerSquareType,
       // gradient: {
       //   type: 'linear', // 'radial'
@@ -58,8 +58,8 @@ export default function App() {
       // },
     },
     cornersDotOptions: {
-      color: '#222222',
-      type: 'dot' as CornerDotType,
+      color: '#000',
+      type: 'none' as CornerDotType,
       // gradient: {
       //   type: 'linear', // 'radial'
       //   rotation: 180,
