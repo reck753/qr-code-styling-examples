@@ -18,18 +18,11 @@ export default function App() {
     height: 300,
     type: 'svg' as DrawType,
     data: 'http://qr-code-styling.com',
-    image: '/favicon.ico',
     margin: 10,
     qrOptions: {
       typeNumber: 0 as TypeNumber,
       mode: 'Byte' as Mode,
       errorCorrectionLevel: 'Q' as ErrorCorrectionLevel
-    },
-    imageOptions: {
-      hideBackgroundDots: true,
-      imageSize: 0.4,
-      margin: 20,
-      crossOrigin: 'anonymous',
     },
     dotsOptions: {
       color: '#000',
